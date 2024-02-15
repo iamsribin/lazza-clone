@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.navbar {
+  background-color: #000000;
+}
+.navbar-brand {
+  font-family: Open "Sans";
+  color: #ffffff;
+}
+.navbar-nav {
+  margin-left: auto;
+
+}
+.nav-link {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #ffffff;
+  height: 18px;
+  font-size: 15px;
+}
+.navbar-collapse .navbar-nav .nav-item a { color: #ffffff} 
+.navbar-brand img {
+  height: 65px;
+  width: 120px;
+  margin-right: 10px;
+}
+nav {
+  width: 100%;
+}
+.fa-solid {
+  color: #f5a608;
+}
+.nav-img {
+  display: flex;
+  align-items: center;
+}
+.collapse {
+  margin-right: 20px;
+}
+.nav-img img {
+  margin-right: 15px;
+  height: 20px;
+  vertical-align: middle;
+  border-style: none;
+}
+@media only screen and (max-width: 992px) {
+  .nav-btn {
+    background-color: #ffffff;
+  }
+  .navbar-collapse .navbar-nav .nav-item a { color: #000000} 
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .collapse {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: center;
+    margin: 0;
+    height: fit-content;
+    border-radius: 5px;
+    height: fit-content;
+  }
+  .nav-link {
+    color: #000;
+  }
+  .navbar-nav {
+    margin-left: 10px;
+  }
+  .navbar-toggler {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+  }
+  .nav-img {
+    width: 100px;
+  }
+  .nav-btn {
+    width: 50px;
+  }
+  .navbar-brand img {
+    height: 50px;
+    width: 100px;
+  }
+  .icon-img {
+    opacity: 0;
+    display: none;
+  }
+}
+/* ----------headr--------- */
+.header {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+#carouselExampleInterval {
+  height: 100vh;
+  background-color: #000000;
+  object-fit: cover;
+}
+.carousel-item img {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+}
+/* --------icecream section------- */
+
+.card-title {
+  text-align: center;
+}
+.footer-img {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+.footer-img img {
+  width: 100%;
+
+  position: relative;
+}
+.card {
+  border: none;
+}
+
+/* ---------------------------- */
+.footer {
+  width: 100%;
+  background-color: #000000;
+}
+.footer .row span img {
+  width: 30px;
+}
+.footer-logo img {
+  max-width: 150px;
+}
+.footer-simon img {
+  max-width: 160px;
+}
+.footer ul li a,
+h4 {
+  color: #be9509;
+  text-decoration: none;
+}
+
+.row h4 {
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.hi {
+  background-color: #000000;
+  height: 60px;
+  border-top: solid 1px #ffffff;
+  color: #be9509;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
